@@ -46,7 +46,7 @@ export function ServiceCard({ number, title, description, href }: { number: stri
 
 export function PhotoPanel({ className = "", label }: { className?: string; label: string }) {
   return <div className={`photo-panel ${className}`}>
-    <Image fill priority sizes="(max-width: 800px) 100vw, 46vw" src="https://le-de.cdn-website.com/448e4c656a21430e8cc5daa0898b5b95/dms3rep/multi/opt/WhatsApp%2BImage%2B2026-09-17%2Bat%2B09.42.40-1095w.jpeg" alt="Keittiö, jossa on vaaleat kaapistot" />
+    <Image fill priority sizes="(max-width: 800px) 100vw, 46vw" src="https://le-de.cdn-website.com/448e4c656a21430e8cc5daa0898b5b95/dms3rep/multi/opt/WhatsApp%2BImage%2B2026-09-17%2Bat%2B09.42.40-1095w.jpeg" alt="Kylpyhuone, jossa on vaaleat laatat ja lasiseinäinen suihku" />
     <div className="photo-label"><span className="photo-cross" aria-hidden="true">＋</span>{label}</div>
   </div>;
 }

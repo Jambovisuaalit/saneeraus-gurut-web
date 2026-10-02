@@ -15,7 +15,7 @@ export default function Home() {
         <span className="eyebrow"><span className="eyebrow-line"/> REMONTIT KESKI-UUDELLAMAALLA</span>
         <h1 id="hero-heading">Remontti, joka tehdään <em>niin kuin sovitaan.</em></h1>
         <p className="lead">Kylpyhuone-, huoneisto- ja keittiöremontit Järvenpäässä, Keravalla ja Tuusulassa. Kerro, mitä olet suunnittelemassa. Katsotaan yhdessä, mitä työ vaatii.</p>
-        <div className="actions"><Cta href="/tarjouspyynto">Pyydä remonttikartoitus</Cta><Link className="text-link" href="/referenssit">Tutustu työn jälkeen <ArrowUpRight size={18}/></Link></div>
+        <div className="actions"><Cta href="/tarjouspyynto">Pyydä remonttikartoitus</Cta><Link className="text-link" href="/nain-toimimme">Katso miten etenemme <ArrowUpRight size={18} aria-hidden="true"/></Link></div>
         <div className="hero-facts"><span><Check size={17}/> Paikallinen toimija</span><span><Check size={17}/> Kolme ydinpalvelua</span><span><Check size={17}/> Suora yhteys yritykseen</span></div>
       </div>
       <PhotoPanel className="hero-photo" label="KODIN TILAT UUTEEN KÄYTTÖÖN" />
